@@ -1,0 +1,159 @@
+.topnavbar {
+  height: 30px;
+}
+.pagination {
+  background: #f2f2f2;
+}
+.pagination li a {
+  text-decoration: none;
+}
+.pagination li {
+  display: inline-block;
+  padding: 0px 9px;
+  margin-right: 4px;
+  border-radius: 3px;
+  border: solid 1px #c0c0c0;
+  background: #e9e9e9;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.8),
+    0px 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 0.875em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #717171;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.pagination.active {
+  border: none;
+  background: #616161;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5),
+    0px 1px 0px rgba(255, 255, 255, 0.8);
+  color: #f0f0f0;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.pagination li.active {
+  border: none;
+  background: #2f3237;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5),
+    0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.pagination li.active a {
+  color: #fff;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.pagination li a:hover{
+  color: #b41919;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#ex4 .p1[data-count]:after {
+  position: absolute;
+  right: 10%;
+  top: 27%;
+  content: attr(data-count);
+  font-size: 40%;
+  padding: 0.2em;
+  border-radius: 50%;
+  line-height: 1em;
+  color: white;
+  background: rgba(255, 0, 0, 0.85);
+  text-align: center;
+  min-width: 1em;
+  //font-weight:bold;
+}
+
+	
+/* Product Color */
+.product-color {
+  margin-bottom: 30px;
+}
+ 
+.color-choose div {
+  display: inline-block;
+}
+ 
+// .color-choose input[type="radio"] {
+//   display: none;
+// }
+ 
+.color-choose span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+}
+ 
+.color-choose span {
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+}
+ 
+.modal-login {
+		width: 320px;
+	}
+	.modal-login .modal-content {
+		border-radius: 1px;
+		border: none;
+	}
+	.modal-login .modal-header {
+        position: relative;
+		justify-content: center;
+        background: #f2f2f2;
+	}
+    .modal-login .modal-body {
+        padding: 30px;
+    }
+    .modal-login .modal-footer {
+        background: #f2f2f2;
+    }
+	.modal-login h4 {
+		text-align: center;
+		font-size: 26px;
+	}
+    .modal-login label {
+        font-weight: normal;
+        font-size: 13px;
+    }
+	.modal-login .form-control, .modal-login .btn {
+		min-height: 38px;
+		border-radius: 2px; 
+	}
+	.modal-login .hint-text {
+		text-align: center;
+	}
+	.modal-login .close {
+        position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+    .modal-login .checkbox-inline {
+        margin-top: 12px;
+    }
+    .modal-login input[type="checkbox"]{
+        margin-top: 2px;
+    }
+	.modal-login .btn {
+        min-width: 100px;
+		background: #3498db;
+		border: none;
+		line-height: normal;
+	}
+	.modal-login .btn:hover, .modal-login .btn:focus {
+		background: #248bd0;
+	}
+	.modal-login .hint-text a {
+		color: #999;
+	}
+	.trigger-btn {
+		display: inline-block;
+		margin: 100px auto;
+	}
+@import "../node_modules/bootstrap/scss/bootstrap";
